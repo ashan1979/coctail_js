@@ -233,6 +233,23 @@ input::placeholder {
     position: relative;
 }
 
+.cocktail:hover {
+    filter: blur(2px) grayscale(50%);
+}
 
+.cocktail h3 {
+    position: absolute;
+    bottom: -1rem;
+    right: -1rem;
+    background: var(--clr-black);
+    color: var(--clr-white);
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 2rem;
+    border-radius: var(--radius);
+}
 
 
