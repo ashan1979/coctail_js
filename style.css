@@ -197,6 +197,42 @@ p {
     display: none;
 }
 
+/* search form */
+
+.search-form {
+    text-align: center;
+    padding-top: 5rem;
+    width: 85vw;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    font-size: 1rem;
+    border-color: transparent;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+input {
+    border-radius: var(--radius);
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    color: var(--clr-grey-3);
+}
+
+.cocktail {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    transition: var(--transition);
+    margin-bottom: 3rem;
+    position: relative;
+}
+
 
 
 
