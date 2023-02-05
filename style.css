@@ -252,4 +252,15 @@ input::placeholder {
     border-radius: var(--radius);
 }
 
+/* Single cocktail */
+
+.single-drink {
+  width: 85vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+
+
 
