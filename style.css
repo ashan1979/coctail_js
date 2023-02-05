@@ -270,3 +270,23 @@ input::placeholder {
   border-radius: var(--radius);
 }
 
+@media screen and (min-width: 992px) {
+  .single-drink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+}
+
+.drink-info {
+  padding-top: 2rem;
+}
+
+.drink-ingredients .far {
+  margin-right: 1rem;
+}
+
+.single-drink .btn {
+  display: inline-block;
+  margin-top: 2rem;
+}
