@@ -20,4 +20,12 @@ const displayDrinks = ({ drinks }) => {
             </article>
             </a>`
     })
-}
+
+    .join('');
+hideLoading();
+title.textContent = '';
+section.innerHTML = newDrinks;
+return section
+};
+
+export default displayDrinks;
