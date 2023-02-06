@@ -15,5 +15,16 @@ const displayDrink = (data) => {
     ];
     const img = get('.drink-img');
     const drinkName =  get('.drink-name');
-    
-}
+    const description = get('.drink=desc');
+    const ingredients =  get('.drink-ingredients');
+    img.src = image;
+    document.title =  name;
+    drinkName.textContent = name;
+    description.textContent = desc;
+    ingredients.innerHTML = list.map((item) => {
+        if(!item) return;
+        return `<li><i class="fas fa=check-square"></i>${item}</li>`;
+    })
+    .join('');
+};
+export default displayDrink;
